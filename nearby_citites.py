@@ -1,5 +1,6 @@
 import requests
 
+# returns the cities near a given location
 class nearby:
 
     # gets the data of the nearby citites within a rectangle

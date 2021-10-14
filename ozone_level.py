@@ -1,10 +1,7 @@
 import requests
 
-# returns the current and forecast ozone level in the air in a certain location
+# returns the current and forecast ozone level in the air in a given certain location
 class ozone:
-
-    def __init__(self):
-        pass
 
     def current_data():
         latitude = input('Enter latitude: ')
