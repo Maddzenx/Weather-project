@@ -10,7 +10,7 @@ class ozone:
          # try-except to handle if input is a float or not
         try: 
             float(latitude)
-            longitude = input('Enter longitute: ')
+            longitude = input('Enter longitude: ')
             try:
                 float(longitude)
                 url = 'http://api.openweathermap.org/data/2.5/air_pollution?lat={}&lon={}&appid=638635f506f79928ef51d1f7dfd4a3a8&units=metric'.format(latitude,longitude)
@@ -32,7 +32,7 @@ class ozone:
         # try-except to handle if input is a float or not
         try: 
             float(latitude)
-            longitude = input('Enter longitute: ')
+            longitude = input('Enter longitude: ')
             try:
                 float(longitude)
                 url = 'http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat={}&lon={}&appid=638635f506f79928ef51d1f7dfd4a3a8&units=metric'.format(latitude,longitude)

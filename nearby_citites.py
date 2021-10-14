@@ -6,7 +6,7 @@ class nearby:
     # gets the data of the nearby citites within a rectangle
     def by_rectangle():
         
-        coordBounds = input('Enter the longitube and latutide bounds in the format [lon-left,lat-bottom,lon-right,lat-top,zoom] where zoom is between 0-16 for instance 12,32,15,37,10. No deciamls.": ')
+        coordBounds = input('Enter the longitude and latitude bounds in the format [lon-left,lat-bottom,lon-right,lat-top,zoom] where zoom is between 0-16. For instance 12,32,15,37,10. No decimals.": ')
        
         url = 'http://api.openweathermap.org/data/2.5/box/city?bbox={}&appid=638635f506f79928ef51d1f7dfd4a3a8&units=metric'.format(coordBounds)
         res = requests.get(url) 
@@ -24,7 +24,7 @@ class nearby:
         # try-except to handle if input is a float or not
         try: 
             float(latitude)
-            longitude = input('Enter longitute: ')
+            longitude = input('Enter longitude: ')
             try:
                 float(longitude)
                 url = 'http://api.openweathermap.org/data/2.5/find?lat={}&lon={}&cnt=3&appid=638635f506f79928ef51d1f7dfd4a3a8&units=metric'.format(latitude, longitude)
@@ -45,13 +45,13 @@ class nearby:
         name1 = data['list'][1]['name']
         name2 = data['list'][2]['name']
 
-        print('\nSome citites within the area is:\n1.{} '.format(name0) + '\n2.{}'.format(name1) + '\n3.{}'.format(name2)) 
+        print('\nSome citites within the area are:\n1.{} '.format(name0) + '\n2.{}'.format(name1) + '\n3.{}'.format(name2)) 
 
 
     #starting point of the program
     #asks for the users input
     def start():
-        answer = input('Enter how if you want nearby citites within a "rectangle" or a "circle": ')
+        answer = input('Enter if you want nearby citites within a "rectangle" or a "circle" area: ')
 
         if answer == 'rectangle' or answer == 'rectangle ' or answer == 'Rectangle'or answer == 'Rectangle ':
             nearby.by_rectangle()
