@@ -13,6 +13,10 @@ This file consists of three programs:
 Note that the bonus program will not stop running if the user input is invalid.
 It will continue to run the whole program. However, the bonus program can be improved regarding bug management.) 
 
+Before running the project - the Python package "Requests" will be neeed. To download it, follow these steps:
+1. Type in "sudo install pip3 requests" in the terminal (with Homebrew on a Mac)
+2.  See https://pypi.org/project/requests/ for more information
+
 To run this project, follow these steps:
 1. Download the zip-file to your computer
 2. Unzip the file and open in Visual Code Studio
