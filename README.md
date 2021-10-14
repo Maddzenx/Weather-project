@@ -16,5 +16,5 @@ It will continue to run the whole program. The bonus program can be improved reg
 To run this project, follow these steps:
 1. Download the zip-file to your computer
 2. Unzip the file and open in Visual Code Studio
-3. Choose one of the three files (hour_program.py, nearby_cities.py or ozone_level.py) and run the program
+3. Choose one of the three files (hour_program.py, nearby_cities.py or ozone_level.py) and run the program\
    The terminal will then give you hints on the expected input from you :)
