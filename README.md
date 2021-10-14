@@ -1,8 +1,8 @@
 # Weather-project (API)
 
-Language: Python
-Last updated: 14/20-21
-Author: Madeleine Xia
+Language: Python\
+Last updated: 14/20-21\
+Author: Madeleine Xia\
 
 This file consists of three programs:
 1. hour_program: Returns the weather forecast in the upcoming 12 hour with 3-hour intervals
