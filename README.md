@@ -11,7 +11,7 @@ This file consists of three programs:
 
 (There is a "bonus" program called "weather" that combines all of the three program into one. 
 Note that the bonus program will not stop running efter if the user input is invalid.
-It will continue to run the whole program. The bonus program can be improved regarding bug management.) 
+It will continue to run the whole program. However, the bonus program can be improved regarding bug management.) 
 
 To run this project, follow these steps:
 1. Download the zip-file to your computer
