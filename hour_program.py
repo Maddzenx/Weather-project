@@ -1,6 +1,6 @@
 import requests 
 
-# returns the weather forecast in the upcoming 12hour with 3-hour intervals
+# returns the weather forecast in the upcoming 12 hour with 3-hour intervals
 class hour:
 
     # gets data by cityname
@@ -79,5 +79,5 @@ class hour:
         else:
             print('Sorry, invalid input. Run the program and try again :)')
            
-           
+
 hour.start()
